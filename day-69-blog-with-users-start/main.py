@@ -10,7 +10,7 @@ from forms import CreatePostForm, RegisterForm, LoginForm, CommentForm
 from flask_gravatar import Gravatar
 from functools import wraps
 from sqlalchemy import Table, Column, Integer, ForeignKey
-from sqlalchemy.orm import relationship, declarative_base
+from sqlalchemy.orm import relationship
 from sqlalchemy.ext.declarative import declarative_base
 import os
 from dotenv import load_dotenv
